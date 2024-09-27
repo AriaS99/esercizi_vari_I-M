@@ -1,0 +1,14 @@
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\bin\Debug\net8.0\ezercizio01.exe
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\bin\Debug\net8.0\ezercizio01.deps.json
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\bin\Debug\net8.0\ezercizio01.runtimeconfig.json
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\bin\Debug\net8.0\ezercizio01.dll
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\bin\Debug\net8.0\ezercizio01.pdb
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\obj\Debug\net8.0\ezercizio01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\obj\Debug\net8.0\ezercizio01.AssemblyInfoInputs.cache
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\obj\Debug\net8.0\ezercizio01.AssemblyInfo.cs
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\obj\Debug\net8.0\ezercizio01.csproj.CoreCompileInputs.cache
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\obj\Debug\net8.0\ezercizio01.dll
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\obj\Debug\net8.0\refint\ezercizio01.dll
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\obj\Debug\net8.0\ezercizio01.pdb
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\obj\Debug\net8.0\ezercizio01.genruntimeconfig.cache
+C:\Users\Utente\Desktop\esercizi-settimana01\ezercizio01\ezercizio01\obj\Debug\net8.0\ref\ezercizio01.dll

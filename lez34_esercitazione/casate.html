@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" /> <!--font di google-->
+    <link rel="stylesheet" href="stile.css" />
+    <title>Olivander's</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"><a class="navbar-brand" href="index.html"><img class="logo" src="img\ollivanders-logo-wt.png" alt="logo olivander"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="ins-bacchetta.html">Inserimento Bacchetta</a>
+            <a class="nav-link" href="ins-casata.html">Inserimento Casate</a>
+            <a class="nav-link" href="bacchette.html"> Lista Bacchette</a>
+            <a class="nav-link active" href="#"> Lista Casate <span class="sr-only">(current)</span></a>
+          </div>
+        </div>
+    </nav>
+
+    <img src="img/casata.jpg" class="sfondo" alt="sfondo casate">
+
+    <div class="container-fluid mt-5">
+      <div class="row text-center">
+        <div class="col">
+          <table class="table table-striped table-dark">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Nome Casata</th>
+                <th>Descrizione</th>
+                <th>Logo</th>
+                <th>Num. Bacchette</th>
+                <th>Azioni</th>
+              </tr>
+            </thead>
+            <tbody id="corpo-tabella"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="modaleModifica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modifica</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col">
+                <div class="form-group">
+                  <label for="in-nome">Nome Casata</label>
+                  <input type="text" class="form-control" placeholder="inserisci il nome della casata" id="in-nome" />
+              </div>
+              <div class="form-group">
+                  <label for="in-desc">Descrizione</label>
+                  <input type="text" class="form-control" placeholder="inserisici una breve descrizione" id="in-desc" />
+              </div>
+              <div class="form-group">
+                <label for="in-logo">Logo</label>
+                <input type="url" placeholder="inserisci URL del logo" class="form-control" id="in-logo" />
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+            <button type="button" class="btn btn-primary" id="btn-salva" data-identif="" onclick="salva(this)">Salva</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="script-casata.js"></script>
+    
+</body>
+</html>
